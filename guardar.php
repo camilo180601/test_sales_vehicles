@@ -18,7 +18,7 @@ if (isset($_POST['cantidad'])) {
     $actualizar = mysqli_query($conexion, $sql2);
 
     if($guardar){
-        echo '<br><br><br><strong class="alert alert-success">Venta Registrada correctamente</strong>'; 
+        echo '<div class="container"><br><br><br><strong class="alert alert-success">Venta Registrada correctamente</strong></div>'; 
     }else{
         echo '<div class="container"><br><br><br><strong class="alert alert-danger">Error al registrar la venta</strong></div>';
     }
