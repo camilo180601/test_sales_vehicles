@@ -16,7 +16,9 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
+CREATE DATABASE `ventas_de_vehiculos`;
 
+USE `ventas_de_vehiculos`;
 --
 -- Base de datos: `ventas_de_vehiculos`
 --
@@ -26,6 +28,7 @@ SET time_zone = "+00:00";
 --
 -- Estructura de tabla para la tabla `marca`
 --
+
 
 CREATE TABLE `marca` (
   `id_marca` int(255) NOT NULL,
